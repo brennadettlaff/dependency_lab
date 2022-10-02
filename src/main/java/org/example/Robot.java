@@ -8,9 +8,9 @@ public class Robot {
     public Weapon weapon;
 
     //Constructor
-    public Robot() {
+    public Robot(Weapon weapon) {
         this.name = "Robby";
-        this.weapon = new Weapon ("Sword", 50);
+        this.weapon = weapon;
     }
     //Methods (CAD DO)
     public void Attack() {
